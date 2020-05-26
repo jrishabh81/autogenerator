@@ -1,0 +1,22 @@
+<schema package="com.sample">
+    <objectMappings>
+        <objectMapping objectName="Car" objectPrefix="ca">
+            <propertyMappings>
+                <propertyMapping propertyName="CarProperty" datatype="STRING" isMandatory="true"
+                                 isOneToOneNestedObject="false"
+                                 propertyInstanceName="object" nocopy="false" loadNestedObject="false" maxLength="255"
+                                 isForeignKey="false" prefixRequired="false" isOrderColumn="false"/>
+            </propertyMappings>
+
+        </objectMapping>
+        <objectMapping objectName="Car" objectPrefix="ca">
+            <propertyMappings>
+                <propertyMapping propertyName="CarProperty" datatype="STRING" isMandatory="true"
+                                 isOneToOneNestedObject="false"
+                                 propertyInstanceName="object" nocopy="false" loadNestedObject="false" maxLength="255"
+                                 isForeignKey="false" prefixRequired="false" isOrderColumn="false"/>
+            </propertyMappings>
+
+        </objectMapping>
+    </objectMappings>
+</schema>
